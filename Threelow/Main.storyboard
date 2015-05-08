@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3wr-UD-FAF">
+                                <rect key="frame" x="280" y="62" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="2Z5-qe-223"/>
+                                    <constraint firstAttribute="height" constant="40" id="YZz-Ge-pY7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="46"/>
+                                <state key="normal" title="⚀">
+                                    <color key="titleColor" red="0.89019607840000003" green="0.31372549020000001" blue="0.32156862749999998" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="diceButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="9rp-9J-gDM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5bA-Ql-amN">
+                                <rect key="frame" x="348" y="62" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="UfS-pE-0zP"/>
+                                    <constraint firstAttribute="height" constant="40" id="raG-bf-wiU"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="46"/>
+                                <state key="normal" title="⚂">
+                                    <color key="titleColor" red="0.89019607840000003" green="0.31372549020000001" blue="0.32156862749999998" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="diceButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="tqt-lH-bhN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wSI-Rc-gci">
+                                <rect key="frame" x="246" y="124" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="7Vr-zx-O7b"/>
+                                    <constraint firstAttribute="height" constant="40" id="7ae-LZ-QQo"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="46"/>
+                                <state key="normal" title="⚃">
+                                    <color key="titleColor" red="0.89019607840000003" green="0.31372549020000001" blue="0.32156862749999998" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="diceButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="b7w-05-Wkb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZvM-Cr-ZV9">
+                                <rect key="frame" x="314" y="124" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="Iuu-AC-ajB"/>
+                                    <constraint firstAttribute="height" constant="40" id="NSE-Ig-lIE"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="46"/>
+                                <state key="normal" title="⚄">
+                                    <color key="titleColor" red="0.89019607840000003" green="0.31372549020000001" blue="0.32156862749999998" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="diceButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="uYv-pR-UaM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zG8-Ny-FKv">
+                                <rect key="frame" x="212" y="62" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="GkD-mz-Sxi"/>
+                                    <constraint firstAttribute="height" constant="40" id="UhN-Bs-Ndf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="46"/>
+                                <state key="normal" title="⚁">
+                                    <color key="titleColor" red="0.89019607840000003" green="0.31372549020000001" blue="0.32156862749999998" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="diceButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="BIc-w6-V9c"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Brk-PI-UxW">
+                                <rect key="frame" x="280" y="191" width="40" height="30"/>
+                                <state key="normal" title="Reset">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="resetDice:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="McQ-6U-La6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dAd-t4-xih">
+                                <rect key="frame" x="285" y="241" width="30" height="30"/>
+                                <state key="normal" title="Roll">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="rollDice:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="14o-v7-ACY"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Score: " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M75-i7-TCA">
+                                <rect key="frame" x="273" y="287" width="55" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="Brk-PI-UxW" secondAttribute="centerX" id="47l-JD-rjj"/>
+                            <constraint firstItem="3wr-UD-FAF" firstAttribute="leading" secondItem="zG8-Ny-FKv" secondAttribute="trailing" constant="28" id="BLK-hj-mIl"/>
+                            <constraint firstItem="wSI-Rc-gci" firstAttribute="top" secondItem="zG8-Ny-FKv" secondAttribute="bottom" constant="22" id="ECk-s4-GOk"/>
+                            <constraint firstItem="5bA-Ql-amN" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="42" id="IMv-U9-He6"/>
+                            <constraint firstAttribute="centerX" secondItem="M75-i7-TCA" secondAttribute="centerX" id="M7V-3w-2ro"/>
+                            <constraint firstAttribute="centerX" secondItem="wSI-Rc-gci" secondAttribute="centerX" id="MRX-fF-ssf"/>
+                            <constraint firstAttribute="centerX" secondItem="wSI-Rc-gci" secondAttribute="centerX" constant="34" id="XPG-rA-wBS"/>
+                            <constraint firstAttribute="centerX" secondItem="dAd-t4-xih" secondAttribute="centerX" id="YRX-Lm-PZP"/>
+                            <constraint firstItem="M75-i7-TCA" firstAttribute="top" secondItem="dAd-t4-xih" secondAttribute="bottom" constant="16" id="blw-Uq-tj0"/>
+                            <constraint firstItem="ZvM-Cr-ZV9" firstAttribute="leading" secondItem="wSI-Rc-gci" secondAttribute="trailing" constant="28" id="gmV-Y6-Xyl"/>
+                            <constraint firstItem="Brk-PI-UxW" firstAttribute="top" secondItem="ZvM-Cr-ZV9" secondAttribute="bottom" constant="27" id="ido-RN-rey"/>
+                            <constraint firstAttribute="centerX" secondItem="3wr-UD-FAF" secondAttribute="centerX" id="jRO-Up-rOM"/>
+                            <constraint firstItem="ZvM-Cr-ZV9" firstAttribute="top" secondItem="5bA-Ql-amN" secondAttribute="bottom" constant="22" id="lOi-0k-wYW"/>
+                            <constraint firstItem="dAd-t4-xih" firstAttribute="top" secondItem="Brk-PI-UxW" secondAttribute="bottom" constant="20" id="rvA-b9-Rm9"/>
+                            <constraint firstItem="5bA-Ql-amN" firstAttribute="leading" secondItem="3wr-UD-FAF" secondAttribute="trailing" constant="28" id="tJb-fw-8Rp"/>
+                            <constraint firstItem="zG8-Ny-FKv" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="42" id="vqj-Rm-Cs5"/>
+                            <constraint firstItem="3wr-UD-FAF" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="42" id="yi1-mo-ez6"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="MRX-fF-ssf"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="die1" destination="3wr-UD-FAF" id="2nE-dC-Wn4"/>
+                        <outlet property="die2" destination="zG8-Ny-FKv" id="nAo-Hb-j3K"/>
+                        <outlet property="die3" destination="5bA-Ql-amN" id="kEF-x7-oaf"/>
+                        <outlet property="die4" destination="wSI-Rc-gci" id="Rgv-9E-a1o"/>
+                        <outlet property="die5" destination="ZvM-Cr-ZV9" id="VkZ-5U-pjj"/>
+                        <outlet property="scoreLabel" destination="M75-i7-TCA" id="tiC-Ai-aYx"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
